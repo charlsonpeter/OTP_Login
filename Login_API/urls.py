@@ -4,4 +4,5 @@ from .views import *
 
 urlpatterns = [
         path('get_otp/', GetOTP.as_view()),
+        path('verify_otp/', VerifyOTP.as_view()),
     ]
